@@ -13,6 +13,7 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
             width={204}
             height={82}
             className="mb-2 h-auto"
+            priority 
           />
           <div className="space-y-5 text-light-300">
             <h1 className="h1 font-semibold">Effortlessly Organize Your Files</h1>
@@ -27,6 +28,7 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
             width={342}
             height={342}
             className="transition-all hover:rotate-2 hover:scale-105"
+            priority 
           />
         </div>
       </section>
@@ -39,6 +41,7 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
             width={224}
             height={82}
             className="h-auto w-[200px] lg:w-[250px]"
+            priority 
           />
         </div>
         {children}

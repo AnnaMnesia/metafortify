@@ -16,10 +16,15 @@ import { Input } from "@/components/ui/input";
 import Image from "next/image";
 import Link from "next/link";
 
-const formSchema = z.object({
-  fullName: z.string().min(2).max(50).optional(), // Make it optional since it's only for sign-up
-  email: z.string().email("Invalid email address"),
-});
+const authFormSchema = (formType: FormType) => {
+  return z.object({
+    email: z.string().email("Invalid email address"),
+    fullName:
+      formType === "sign-up"
+        ? z.string().min(2).max(50)
+        : z.string().optional(),
+  });
+};
 
 type FormType = "sign-in" | "sign-up";
 
@@ -27,10 +32,12 @@ const AuthForm = ({ type }: { type: FormType }) => {
   const [isLoading, setIsLoading] = useState(false);
   const [errorMessage, setErrorMessage] = useState("");
 
+  const formSchema = authFormSchema(type);
   const form = useForm<z.infer<typeof formSchema>>({
     resolver: zodResolver(formSchema),
     defaultValues: {
       fullName: "",
+      email: "",
     },
   });
 
@@ -99,7 +106,7 @@ const AuthForm = ({ type }: { type: FormType }) => {
                 alt="loader"
                 width={24}
                 height={24}
-                className="animate-spint-2 ml-2"
+                className="animate-spin ml-2"
               />
             )}
           </Button>
