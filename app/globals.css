@@ -27,7 +27,7 @@
   }
 
   .custom-scrollbar::-webkit-scrollbar-thumb:hover {
-    background: #333F4E;
+    background: #363B45;
   }
 
   /* Remove scrollbar */
@@ -53,6 +53,9 @@
 
   .recharts-responsive-container {
     height: initial !important;
+  }
+  :root {
+    --radius: 0.5rem;
   }
 }
 
@@ -271,9 +274,9 @@
   .form-submit-button {
     @apply primary-btn h-[66px] !important;
   }
-  .error-message {
-    @apply body-2 mx-auto w-fit rounded-xl bg-error/5 px-8 py-4 text-center text-error !important;
-  }
+  /* .error-message {
+    @apply body-2 mx-auto w-fit rounded-xl bg-error px-8 py-4 text-center text-error !important;
+  } */
 
   /* Card */
   .file-card {

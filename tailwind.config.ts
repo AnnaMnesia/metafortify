@@ -2,6 +2,7 @@ import tailwindcssAnimate from "tailwindcss-animate";
 import type { Config } from "tailwindcss";
 
 export default {
+  darkMode: ["class"],
   content: [
     "./pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./components/**/*.{js,ts,jsx,tsx,mdx}",
@@ -10,9 +11,13 @@ export default {
   theme: {
     extend: {
       colors: {
+        error: {
+          DEFAULT: "#FF4C4C", // Define the main color
+          5: "rgba(255, 76, 76, 0.05)", // Define the opacity variant
+        },
         brand: {
+          "100": "#363B45",
           DEFAULT: "#363B45",
-          100: "#333F4E",
         },
         red: "#DE3B38",
         green: "#007B5C",
@@ -20,15 +25,15 @@ export default {
         purple: "#AE90FF",
         orange: "#FF9C06",
         light: {
-          100: "#333F4E",
-          200: "#707581",
-          300: "#EBECEE",
-          400: "#FFFFFF",
+          "100": "#333F4E",
+          "200": "#707581",
+          "300": "#EBECEE",
+          "400": "#FFFFFF",
         },
         dark: {
-          100: "#1B1B1D",
-          200: "#303032",
-          300: "#8E8F90",
+          "100": "#1B1B1D",
+          "200": "#303032",
+          "300": "#8E8F90",
         },
       },
       fontFamily: {
@@ -46,8 +51,12 @@ export default {
       },
       keyframes: {
         "caret-blink": {
-          "0%,70%,100%": { opacity: "1" },
-          "20%,50%": { opacity: "0" },
+          "0%,70%,100%": {
+            opacity: "1",
+          },
+          "20%,50%": {
+            opacity: "0",
+          },
         },
       },
       animation: {
