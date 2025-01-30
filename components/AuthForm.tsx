@@ -16,6 +16,7 @@ import { Input } from "@/components/ui/input";
 import Image from "next/image";
 import Link from "next/link";
 import { createAccount } from "@/lib/actions/user.actions";
+import OTPModal from "./OTPModal";
 
 const authFormSchema = (formType: FormType) => {
   return z.object({
@@ -60,6 +61,7 @@ const AuthForm = ({ type }: { type: FormType }) => {
       setIsLoading(false);
     }
   };
+  console.log(accountId);
 
   return (
     <>
@@ -148,6 +150,9 @@ const AuthForm = ({ type }: { type: FormType }) => {
         </form>
       </Form>
       {/* OTP Verification */}
+      {true && (
+        <OTPModal email={form.getValues("email")} accountId={accountId} />
+      )}
     </>
   );
 };
