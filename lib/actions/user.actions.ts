@@ -58,7 +58,7 @@ export const createAccount = async ({
       {
         fullName,
         email,
-        avatar: "/avatar.png",
+        avatar: "/assets/icons/avatar.svg",
         accountId,
       }
     );
