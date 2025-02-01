@@ -42,7 +42,7 @@ export default {
       boxShadow: {
         "drop-1": "0px 10px 30px 0px rgba(54, 59, 53, 0.1)", // Light onyx shadow
         "drop-2": "0 8px 30px 0 rgba(54, 59, 53, 0.3)", // Medium onyx shadow
-        "drop-3": "0 8px 30px 0 rgba(54, 59, 53, 0.15)", // Softer onyx shadow
+        "drop-3": "0 1px 3px rgba(0, 0, 0, 0.12), 0 4px 8px rgba(0, 0, 0, 0.08)"
       },
       borderRadius: {
         lg: "var(--radius)",
