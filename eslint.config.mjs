@@ -16,6 +16,11 @@ const eslintConfig = [
     "plugin:tailwindcss/recommended",
     "prettier"
   ),
+  {
+    rules: {
+      "no-undef": "off",
+    },
+  },
 ];
 
 export default eslintConfig;
