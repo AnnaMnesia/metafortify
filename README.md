@@ -1,4 +1,4 @@
-# META FORTIFY
+# METAFORTIFY
 
 <div align="center">
   <br />
@@ -49,4 +49,3 @@ A **storage management and file-sharing platform** that enables users to securel
 ---
 
 Built for **efficiency**, designed for **simplicity**.
-
