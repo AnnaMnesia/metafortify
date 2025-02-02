@@ -1,36 +1,52 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# META FORTIFY
 
-## Getting Started
+<div align="center">
+  <br />
+      <img src="...." alt="Project Banner">
+  <br />
 
-First, run the development server:
+  <div>
+     <img src="https://img.shields.io/badge/-Next_JS-black?style=for-the-badge&logoColor=white&logo=nextdotjs&color=000000" alt="nextdotjs" />
+    <img src="https://img.shields.io/badge/-TypeScript-black?style=for-the-badge&logoColor=white&logo=typescript&color=3178C6" alt="typescript" />
+    <img src="https://img.shields.io/badge/-Tailwind_CSS-black?style=for-the-badge&logoColor=white&logo=tailwindcss&color=06B6D4" alt="tailwindcss" />
+    <img src="https://img.shields.io/badge/-Appwrite-black?style=for-the-badge&logoColor=white&logo=appwrite&color=FD366E" alt="appwrite" />
+  </div>
+</div>
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## ⚫ Introduction
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+A **storage management and file-sharing platform** that enables users to securely **upload, organize, and share files**. Built with **Next.js 15** and **Appwrite SDK**, it provides an intuitive experience for seamless file handling.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## ⚪ Tech Stack
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- **React 19**
+- **Next.js 15**
+- **Appwrite**
+- **TailwindCSS**
+- **ShadCN**
+- **TypeScript**
 
-## Learn More
+## ⚫ Features
 
-To learn more about Next.js, take a look at the following resources:
+⬛ **Authentication** – Secure user authentication with Appwrite.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+⬜ **File Uploads** – Supports documents, images, videos, and audio.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+⬛ **Manage Files** – Browse, rename, delete, and view files in a new tab.
 
-## Deploy on Vercel
+⬜ **Download Files** – Quick and easy file downloads.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+⬛ **File Sharing** – Share uploaded files via unique links.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+⬜ **Dashboard** – Track storage usage, recent uploads, and file insights.
+
+⬛ **Global Search** – Quickly find files and shared content.
+
+⬜ **Sorting** – Organize files by date, name, or size.
+
+⬛ **Responsive UI** – Clean and minimalist interface, fully optimized for all devices.
+
+---
+
+Built for **efficiency**, designed for **simplicity**.
+
