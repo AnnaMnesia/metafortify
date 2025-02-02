@@ -12,9 +12,10 @@
     <img src="https://img.shields.io/badge/-Appwrite-black?style=for-the-badge&logoColor=white&logo=appwrite&color=FD366E" alt="appwrite" />
   </div>
 
-    <br />
+<br />
 
-🔗 **Live Demo:** [Click here to view the app live!](https://metafortify.vercel.app/sign-in)
+    🔗 **Live Demo:** [Click here to view the app live!](https://metafortify.vercel.app/sign-in)
+
 <br />
 
 </div>
