@@ -12,11 +12,12 @@
     <img src="https://img.shields.io/badge/-Appwrite-black?style=for-the-badge&logoColor=white&logo=appwrite&color=FD366E" alt="appwrite" />
   </div>
 
+  <br />
+    <p>
+      🔗 <strong>Live Demo:</strong> <a href="https://metafortify.vercel.app/sign-in">Click here to view the app live!</a>
+    </p>
+  <br />
 </div>
-
-<br />
-    🔗 **Live Demo:** [Click here to view the app live!](https://metafortify.vercel.app/sign-in)
-<br />
 
 ## ⚫ Introduction
 
